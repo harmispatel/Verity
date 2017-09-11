@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_weight="4"
+            android:gravity="center|left"
+            android:text="Place ID ::"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textview_placeID"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_weight="6"
+            android:gravity="center|left"
+            android:maxLength="5"
+
+            android:textColor="@color/Red"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_weight="4"
+            android:gravity="center|left"
+            android:text="Set place name ::"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textview_type"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_weight="6"
+            android:gravity="center|left"
+            android:textColor="@color/menu_green_bg"
+
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_weight="4"
+            android:gravity="center|left"
+            android:text="Location Name ::"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textview_locationName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_weight="6"
+            android:gravity="center|left"
+
+            android:textColor="@color/Red"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_weight="4"
+            android:gravity="center|left"
+            android:text="Distance ::"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textview_distance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_weight="6"
+            android:gravity="center|left"
+            android:textColor="@color/Red"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="5dp"
+        android:layout_weight="3"
+        android:gravity="left"
+        android:text="Place's Location" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textview_latitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:gravity="center"
+             />
+
+        <TextView
+            android:id="@+id/textview_longitude"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:gravity="center"
+           />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="25dp"
+
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/gray_line_color"></View>
+</LinearLayout>

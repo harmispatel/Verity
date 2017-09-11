@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/harmis/AndroidWork/workspace/17-8-2017/verity/sample-core/build/intermediates/res/merged/androidTest/debug/drawable-v23/abc_control_background_material.xml",
+        "source": "/home/harmis/AndroidWork/workspace/17-8-2017/verity/sample-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-v23/abc_control_background_material.xml"
+    },
+    {
+        "merged": "/home/harmis/AndroidWork/vasimmansuri3152-verity-1b78e5cca221/sample-core/build/intermediates/res/merged/androidTest/debug/drawable-v23/abc_control_background_material.xml",
+        "source": "/home/harmis/AndroidWork/vasimmansuri3152-verity-1b78e5cca221/sample-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-v23/abc_control_background_material.xml"
+    }
+]

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/aboutusManinBg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line_color" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <view
+            android:id="@+id/social_comment_recycler_view"
+            class="android.support.v7.widget.RecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <TextView
+            android:id="@+id/social_comment_no_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="No review"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+</LinearLayout>

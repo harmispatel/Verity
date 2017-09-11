@@ -1,0 +1,683 @@
+<resources>
+    <string name="app_name">Verity</string>
+    <string name="app_name_full">Verity Scanning</string>
+
+    <integer name="viewfinder_border_width">4</integer>
+    <integer name="viewfinder_border_length">60</integer>
+    <!-- register -->
+    <string name="register_label">Register</string>
+    <string name="register_name">Name</string>
+    <string name="register_email">E-mail</string>
+    <string name="register_password">Password</string>
+    <string name="register_confirm_password">Confirm Password</string>
+    <string name="invalid_id">Invalid Email</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="no_internet_connection">You do not have internet connection</string>
+    <string name="login_label">Login</string>
+    <string name="login_or">OR</string>
+    <string name="login_not_yet_registered">Not Registered ? Start Here</string>
+    <string name="do_not_match_pass_confirmpass">Password and Confirm Password do not match</string>
+    <string name="enter_register_name">Enter Name</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+
+    <string name="enter_register_email">Enter E-mail</string>
+    <string name="enter_register_password">Enter Password</string>
+    <string name="password_min_lenght">Password length should be minimum 6 characters.</string>
+
+    <string name="failed_to_send_reset_email">Failed to send reset email!</string>
+
+
+    <string name="enter_register_confirm_password">Enter Verify Password</string>
+    <string name="dialog_select_prompt">Choose a picture</string>
+    <string name="dialog_select_camera">Camera</string>
+    <string name="dialog_select_gallery">Gallery</string>
+    <string name="dlg_loading_opponents">Loading opponents…</string>
+    <string name="loading_users_error">Loading users error. Error</string>
+    <!-- Errors strings. -->
+    <string name="error_max_opponents_count">You can select up to %d opponents</string>
+    <string-array name="sound">
+        <item>beep 1</item>
+        <item>beep 2</item>
+        <item>beep 3</item>
+        <item>beep 4</item>
+        <item>beep 5</item>
+    </string-array>
+    <string name="flash_on">Flash [ON]</string>
+    <string name="flash_off">Flash [OFF]</string>
+    <string name="auto_focus_on">Auto Focus [ON]</string>
+    <string name="auto_focus_off">Auto Focus [OFF]</string>
+    <string name="formats">Formats</string>
+    <string name="choose_formats">Choose Formats</string>
+    <string name="select_camera">Select a Camera</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="invite">Invite</string>
+
+    <!-- <string name="about_message">Certiﬁed Inc.\nProduct Technology\n\nCopyright © 2009\nVersion 1.0\nAndroid\n\nContact info:\nCertified Inc.\n2385 NW Executive\nCenter Dr Suite 100\nBoca Raton, FL\n33431\n(561) 279-2855\nCertiﬁed.bz\n\nCertiﬁed, Inc. is a third-party country of origin Certiﬁcation Company started in 2009 based out of Boca Raton, Fl. Certified conducts a supply chain audit for country of origin claims, providing consumers and manufacturers alike with full product transparency. Certified, Inc. also developed and launched the Certified app which uses AUGITM  technology to provide information about Certiﬁed products and track consumer trends around the globe.</string> <!- -->
+    <!--action bar-->
+    <string name="dlg_creating_new_user">Creating new user…</string>
+    <string name="title_login_activity">Enter to chat</string>
+
+    <string name="title_one_user_selected">%s user selected</string>
+    <string name="tile_many_users_selected">%s users selected</string>
+
+
+    <!-- <string name="about_message">Certified Inc.\n2385 NW Executive \nCenter Dr Suite 100 \nBoca Raton, FL 33431\n\n(561) 279-2855\nCertified.bz\n\nCertified, Inc. is a third party supply chain verification company for country of origin claims.The company was started to bring consumers the transparency they deserve.</string>
+   -->
+
+    <string name="app_id">288648678174508</string>
+    <!-- <string name="dlg_creating_new_user">Creating new user…</string>
+         Your Twitter Key and Secret, see README.
+       -->
+    <!-- TODO(developer): REPLACE -->
+    <string name="twitter_consumer_key">0I5gBROGbR9kdx7PZ2MWkwWom</string>
+    <string name="twitter_consumer_secret">b6g4ZN1VDjs4Wx714BvWFZfrkMpEexveeHysyloLHnEzW4CS1Z</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6103044640428504/4894956476</string>
+
+
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="birthday">Birthday</string>
+    <string name="set_birthday">Say Birthday</string>
+    <string name="authentication_failed">Authentication failed please try again.</string>
+
+    <string name="mobile_number">Mobile Number</string>
+
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="settings">Settings</string>
+
+    <string name="location_summary">Locations Summary</string>
+
+    <string name="upc">UPC :</string>
+    <string name="category">Category :</string>
+    <string name="logout_message">Are you sure you want to logout ?</string>
+    <string name="profile_update_done">Profile updated successfully.</string>
+
+    <string name="this_product_does_not_exist">This product does not exist.</string>
+
+
+    <string name="listing_details">Listing Details</string>
+    <string name="certifications">Certifications:</string>
+
+    <string name="no_result_found">No search results found.</string>
+    <string name="password_sent_on_your_mail">Password sent on you entered mail,Thank you.</string>
+    <string name="forget_password_failed">Forget password sent request failed,please try again.</string>
+
+    <string name="signup_failed">Sign Up Failed Please try again.</string>
+
+    <string name="invitation_title">Certified, Inc. introduces Verity.</string>
+    <string name="invitation_message">Do you want to know more about your food or other products? Download Verity Scanning and find out!</string>
+    <string name="invitation_custom_image_t">https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png</string>
+
+    <string name="invitation_cta">Install!</string>
+    <string name="app_code">tqk28</string>
+
+
+    <string name="referal_code">Referral Code</string>
+    <string name="click_to_share">Click To Share!</string>
+    <string name="ref">REF - </string>
+
+    <string name="ios_clientID">874376514949-57er50ei596s5tn9pbl8kb6mt93f9rtq.apps.googleusercontent.com</string>
+
+
+    <string name="profile_image_select_title">Upload Pictures Option</string>
+    <string name="profile_image_select_message">How do you want to set your picture?</string>
+    <string name="profile_image_opt1">Gallery</string>
+    <string name="profile_image_opt2">Camera</string>
+    <string name="camera_error_message">Error while capturing image</string>
+
+    <string name="uploadfile_path">Upload</string>
+    <string name="upc_scan">Upc Scan</string>
+    <string name="ucr_scan">UCR scan</string>
+    <string name="ocr_scan">OCR scan</string>
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+    <string name="Date">Date</string>
+    <string name="Link">Link</string>
+    <string name="titlee">Title:</string>
+    <string name="usda_recalls">USDA Recalls</string>
+    <string name="usda_recalls_details">USDA Recall Details</string>
+
+    <string name="image_picker_error">Image picker Error</string>
+    <string name="selector">Select Image</string>
+    <string name="scanResult">Scan Result</string>
+    <string name="loading_message">Uploading image. Please wait.</string>
+
+    <string name="allRecallRss">All Recalls RSS</string>
+    <string name="RrecallsRss">Recalls RSS</string>
+    <string name="recallsforChildren">Recalls for Children</string>
+    <string name="selectItem">Select Item</string>
+    <string name="USDA_recall">USDA recall</string>
+    <string name="Recalls_RSS">Recalls RSS</string>
+
+    <string name="menu_new_chat">New Chat</string>
+    <string name="menu_chat_info">Chat info</string>
+    <string name="menu_add_users_to_chat">Add Users to Chat</string>
+    <string name="menu_leave_chat">Leave Chat</string>
+    <string name="menu_delete_chat">Delete Chat</string>
+    <string name="menu_dialogs_logout">Logout</string>
+    <string name="menu_dialogs_delete">Delete</string>
+    <string name="menu_select_people_done">Done</string>
+
+
+    <string name="dialogs_list_hint">Select a Dialog to Chat</string>
+    <string name="dialogs_get_error">Get dialogs errors</string>
+
+
+    <string name="placeholder_username_you">%s (you)</string>
+
+    <string name="text_select_user_to_call">Select users you want to call</string>
+    <string name="dlg_login">Login…</string>
+    <string name="select_users_list_hint">Select Users you want to chat</string>
+    <string name="select_users_create_chat">Create new chat</string>
+    <string name="select_users_edit_chat">Add Users to chat</string>
+    <string name="select_users_get_users_error">Get users errors</string>
+    <string name="select_users_choose_users">Please, choose at least one participant</string>
+    <string name="chat_empty_start_new_chat">Start new chat.</string>
+
+    <string name="chat_info">Chat info</string>
+
+    <string name="group_chat_join_error">Could not join chat, errors:</string>
+
+    <string name="error_leave_chat">Error leaving room</string>
+    <string name="user_list_on_call">User 1, User 2, User 3, User 4, User 5, User 6</string>
+
+
+
+
+
+
+
+
+
+    <string name="no_internet_exist">Internet Not Available.</string>
+    <string name="permission_require">Permission required for this app</string>
+    <string name="redirect_setting">Go to settings and enable permissions</string>
+    <string name="try_again">Try again</string>
+    <string name="try_again_unsuccess">Try again or may be some file is not supported</string>
+
+    <string name="downloadfile_path">Download</string>
+    <string name="compress_video_folderName">Video</string>
+    <string name="downloadfile_success">File Downloaded Successfully</string>
+    <string name="downloadfile_fail">File Downloaded Fail</string>
+    <string name="header_action_done">DONE</string>
+    <string name="signUp_email_verification">An email have been sent for you for verification.</string>
+    <string name="signUp_quickblox_error">Error in register with quickBlox</string>
+
+
+    <!-- Logout -->
+
+    <string name="logout_yes">Yes</string>
+    <string name="logout_ok">OK</string>
+    <string name="logout_cancel">Cancel</string>
+
+
+    <!--close project-->
+    <string name="closeproject_message">Are you sure want to end case?</string>
+
+
+    <!--login-->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="login_forgot_password">Forgot Password?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign IN</string>
+
+
+    <!--register-->
+    <string name="lawyer_category">Category</string>
+    <string name="create_profile">Create Profile</string>
+    <string name="hour">/ hour</string>
+    <string name="salutation">Salutation</string>
+    <string name="first_name">First Name</string>
+    <string name="middle_name">Middle Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone">Phone</string>
+    <string name="phoneno">Phone Number</string>
+    <string name="address">Address</string>
+    <string name="post_code">Post Code</string>
+    <string name="user_sign_up_failed">User Sign Up Failed Please Try Again.</string>
+    <string name="enter_valid_email">Enter Valid Email.</string>
+
+
+    <!--Header-->
+    <string name="header_welcome">Welcome %1$s!</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!--footer-->
+    <string name="footer_home">Home</string>
+    <string name="footer_feed">Feed</string>
+    <string name="footer_ongoing">Ongoing</string>
+    <string name="footer_notification">Notification</string>
+    <string name="footer_past">Past</string>
+    <string name="footer_me">Me</string>
+    <!---->
+    <string name="footer_createcase">Create case</string>
+    <string name="footer_feeds">My Feed</string>
+    <string name="footer_search_lawyer">Lawyer</string>
+
+    <!-- update profile-->
+
+    <string name="my_profile_update">Update Profile</string>
+    <string name="salution1">Mr</string>
+    <string name="salution2">Ms</string>
+    <string name="salution3">Dr</string>
+    <string name="salution4">Prof</string>
+
+    <string name="camera_cancelled">Cancelled</string>
+    <string name="education">Education</string>
+    <string name="currentworkplace">Current work place</string>
+    <string name="currentoccupation">Current Occupation</string>
+    <string name="accomplishments">Accomplishments</string>
+    <string name="hobby">Hobby</string>
+    <string name="experience">Experience</string>
+    <string name="dateofstart">Date of start</string>
+
+    <string name="selectImageType1">Gallery</string>
+    <string name="selectImageType2">Camera</string>
+
+
+    <string name="profil_display_hobby"><b>Hobbies:</b></string>
+    <string name="profilhobby">Hobbies</string>
+    <string name="profil_display_Experience"><b>Legal Experience:</b></string>
+    <string name="profil_display_education"><b>Education:</b></string>
+    <string name="profil_display_accomplishment"><b>Accomplishments:</b></string>
+    <string name="profil_display_desc"><b>About Me:</b></string>
+
+
+    <!-- Home -->
+
+    <string name="home">Home</string>
+    <string name="feeds">Feeds</string>
+    <string name="ongoing_claims">Ongoing Claims</string>
+    <string name="past_claims">Past Claims</string>
+    <string name="notificaitons">Notifications</string>
+    <string name="my_profile">My Profile</string>
+
+    <!--client home-->
+    <string name="client_home_my_profile">Me</string>
+    <string name="client_home_my_claim">My Claims</string>
+    <string name="client_home_notification">Notifications</string>
+    <string name="client_home_search_lawyer">Search Lawyers</string>
+    <string name="client_home_create_case">Create Case</string>
+
+
+    <!--lawer feed_single_item notification-->
+    <string name="lawyer_feed_noti_title">Lunch Tomorrow ?</string>
+    <string name="lawyer_feed_noti_title2">Lorem ipsum is simply dummy test of printing</string>
+    <string name="lawyer_feed_noti_header_title">Today</string>
+    <string name="lawyer_feed_noti_header">Notifications</string>
+    <string name="NoNotificationData">No Notifications Available</string>
+
+
+    <string name="NoTransaction">No any payment</string>
+    <string name="transaction_history">Transaction History</string>
+
+
+    <!--create case-->
+
+    <string name="crete_case">Create Case</string>
+    <string name="update_case">Update Case</string>
+    <string name="crete_case_title">Title</string>
+    <string name="case_title">Title :</string>
+    <string name="crete_case_description">Description</string>
+    <string name="crete_case_loaction">Location</string>
+    <string name="crete_case_category">Category</string>
+    <string name="crete_case_attechment">Attachment File</string>
+
+    <string name="enter_title">Enter Title</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="enter_location">Enter Location</string>
+    <string name="choose_category">Choose Category</string>
+    <string name="min_three_char">Minimum 3 Characters Allowed</string>
+    <string name="save_success">Case created successfully</string>
+    <string name="send_agreement">Agreement sent successfully</string>
+    <string name="update_success">Case updates successfully</string>
+
+
+    <!--lawyer Case Detail-->
+    <string name="sendagreement">Send Agreement</string>
+    <string name="waitagreement">Waiting for Acceptance</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="bid">Send Quotation</string>
+
+    <string name="Chat_title">Chat</string>
+    <string name="audioCall_Title">Audio call</string>
+    <string name="videoCall_Title">Video call</string>
+
+    <!--Client Case Detail-->
+    <string name="client_payNow">Pay Now</string>
+    <string name="client_payNow_close">Close</string>
+
+    <string name="mybid">current Quotations</string>
+    <string name="criminallawyer">Criminal Lawyers</string>
+    <string name="searchlawyer">Search Lawyers</string>
+    <string name="close">End Case</string>
+    <string name="case_detail_label">Case Details</string>
+    <string name="bid_detail_label">Quotation Details</string>
+    <string name="award">Award</string>
+    <string name="create_chat">Creating chat…</string>
+    <!--client My claim-->
+    <string name="myClaimNoData">No Feeds Available</string>
+    <string name="OnGoingClaimNoData">No Ongoing Claims</string>
+    <string name="pastClaimNoData">No Past Claims</string>
+
+    <string name="searchLawyerNoData">No Lawyer Found</string>
+    <string name="myBidNoData">No any Quotation Yet.</string>
+
+    <!--beed-->
+    <string name="submit">Send Quotation</string>
+    <string name="update">Update</string>
+    <string name="updatequo">Update Quotation</string>
+    <string name="beed_desc">What makes you the best lawyer for this case?</string>
+    <string name="enter_proposal">Enter Proposal</string>
+    <string name="enter_price">Enter Price</string>
+
+    <string name="create_bid_hourly_rate">Hourly Rate</string>
+    <string name="create_bid_estimate_hours_needed">Estimate Hours Needed</string>
+    <string name="create_bid_estimate_hours_needed_x">X Hour</string>
+    <string name="create_bid_estimate_hours_needed_y">Y Hour</string>
+    <string name="create_bid_cost_range">Cost Range</string>
+    <string name="create_bid_cost_range_x">X $</string>
+    <string name="create_bid_cost_range_y">Y $</string>
+
+    <!--ForgotPassword-->
+    <string name="forgot_password_title">Forgot password</string>
+    <string name="forgo_password_hint">Enter your Email id and we will send you link for change Password</string>
+    <string name="forgot_password_submit">SUBMIT</string>
+    <string name="enteremail">Enter Email</string>
+
+    <!-- search Lawyer-->
+    <string name="backtolawyerlist"> &lt;&lt;back to lawyerlist</string>
+    <string name="upload_file_message">Can\'t upload this file</string>
+
+    <string name="give_rate">Give Rate</string>
+    <string name="givereview">Write Some Review</string>
+    <string name="nodata">no data</string>
+
+    <string name="paynow_hint">Enter Amount</string>
+    <string name="delete_message">Are you sure want to delete?</string>
+    <string name="delete">Delete</string>
+
+    <string name="paypalId">Paypal Id</string>
+    <string name="client_detail_label">Client Profile</string>
+    <string name="lawyer_detail_label">Lawyer Profile</string>
+    <string name="paypal">Paypal</string>
+    <string name="logout">Logout</string>
+    <string name="paymet_history">Payment History</string>
+    <string name="enterPaypalId">Enter Paypal Id</string>
+    <string name="payfinalamt">Enter Final Amount</string>
+
+    <string name="setting_enable_passlock">Enable password</string>
+    <string name="setting_change_passlock">Change password</string>
+
+    <!--setup meeting-->
+    <string name="select_time">Select Time</string>
+    <string name="select_date">Select Date</string>
+    <string name="submit_setUpmeeting">Setup Meeting</string>
+    <string name="payment">Payment</string>
+    <string name="button_requestPayment">Request Payment</string>
+    <string name="add_event_setUpmeeting">Add Event</string>
+
+
+    <!--Attachment file-->
+    <string name="eng_file">Engagement</string>
+    <string name="attachemt_file">Attachment</string>
+    <string name="attachemt_file_send">SEND</string>
+    <string name="attachemt_file_receive">RECEIVE</string>
+
+    <!--chat-->
+
+    <string name="please_wait">Please wait</string>
+
+    <string name="dlg_loading">Loading</string>
+
+    <string name="login_chat_login_error">Login Chat error. Please relogin. Error</string>
+
+    <string name="dialogs_logged_in_as">Logged in as %s</string>
+    <string name="dialogs_creation_error">Dialog creation errors</string>
+    <string name="dialogs_deletion_error">Dialog deletion errors</string>
+
+    <string name="chat_send">Send</string>
+    <string name="chat_edit_text_hint">Message</string>
+    <string name="chat_load_users_error">Load chat users errors</string>
+    <string name="chat_attachment">Attachment</string>
+    <string name="chat_empty_you_are_alone_here">You\'re all alone out here.</string>
+    <string name="chat_unsupported_type">Unsupported dialog type</string>
+    <string name="chat_wait_for_attachments_to_upload">Wait for all attachments to upload</string>
+    <string name="notification_title">Chat Notification</string>
+    <string name="connection_error">Chat connection has been dropped</string>
+    <string name="reconnect_alert">Reconnecting in %s seconds</string>
+
+    <string name="chat_info_add_people_error">Add people errors</string>
+
+    <string name="public_group_chat_cannot_be_deleted">Public Group chat can be deleted only by owner</string>
+
+    <string name="sender_id">874376514949</string>
+
+
+    <!-- video -->
+
+    <!-- Dialogs strings. -->
+    <string name="dlg_signal_error">Disconnected… Please check your Internet connection!</string>
+
+
+    <!-- Errors strings. -->
+    <string name="sign_up_error">Error creating new user, please try again</string>
+    <string name="errorMessage">Error creating from Server, please try after sometime</string>
+
+    <string name="permission_unavailable">%s is not available now!</string>
+
+    <string name="field_name_user_name">User name</string>
+    <string name="field_name_chat_room_name">Chat room name</string>
+
+    <string name="error_name_must_not_contain_special_characters_from_app">%1$s must contain 3 &#8212; %2$s alphanumeric Latin characters without space, the first char must be a letter</string>
+
+    <!--menu-->
+    <string name="action_settings">Settings</string>
+    <string name="action_screen_share">Screen share</string>
+
+
+    <!--action bar-->
+    <string name="actionbar_title_settings">Settings</string>
+    <string name="subtitle_text_logged_in_as">Logged in as %s</string>
+
+
+    <string name="also_on_call">Also on call:</string>
+
+
+    <string name="opponent_pending">Pending</string>
+    <string name="opponent_closed">Closed</string>
+    <string name="text_incoming_audio_call">Incoming Audio Call</string>
+    <string name="text_incoming_video_call">Incoming Video Call</string>
+    <string name="text_status_connect">Connect…</string>
+    <string name="text_status_checking">Checking…</string>
+    <string name="text_status_connected">Connected</string>
+    <string name="text_status_disconnected">Disconnected</string>
+
+    <string name="text_status_rejected">Rejected</string>
+    <string name="text_status_no_answer">No answer</string>
+    <string name="text_status_hang_up">Hung up</string>
+    <string name="text_status_closed">Closed</string>
+
+    <string name="text_push_notification_message">"%s is calling you"</string>
+
+
+    <!-- Settings strings. -->
+    <string name="title_video_category">Video</string>
+    <string name="title_call_settings_category">Call Settings</string>
+
+    <integer name="pref_default_int_value">0</integer>
+
+    <string name="pref_frame_rate_key">frame_rate</string>
+    <string name="pref_frame_rate_title">Frame Rate (0&#8211;30)</string>
+    <string name="pref_frame_rate_default">0</string>
+    <integer name="pref_frame_rate_min_value">0</integer>
+    <integer name="pref_frame_rate_max_value">30</integer>
+    <integer name="pref_frame_rate_stepSize">5</integer>
+
+    <string name="pref_resolution_key">resolution_preference</string>
+    <string name="pref_resolution_title">Video Format</string>
+    <string name="pref_resolution_dlg">Enter RTC local video resolution</string>
+    <string name="pref_resolution_default">-1</string>
+
+    <string name="pref_startbitratevalue_key">startbitratevalue_preference</string>
+    <string name="pref_startbitratevalue_title">Bandwidth (0&#8211;2000)</string>
+    <string name="pref_startbitratevalue_default">0</string>
+    <integer name="pref_startbitratevalue_min_value">0</integer>
+    <integer name="pref_startbitratevalue_max_value">2000</integer>
+    <integer name="pref_startbitratevalue_step_size">100</integer>
+
+    <string name="pref_disable_built_in_aec_key">disable_built_in_aec_preference</string>
+    <string name="pref_disable_built_in_aec_title">Disable built-in AEC</string>
+    <string name="pref_disable_built_in_aec_dlg">Disable built-in AEC</string>
+    <string name="pref_disable_built_in_aec_default">false</string>
+
+    <string name="pref_opensles_key">opensles_preference</string>
+    <string name="pref_opensles_title">Use OpenSL ES for audio playback</string>
+    <string name="pref_opensles_dlg">Use OpenSL ES for audio playback</string>
+    <string name="pref_opensles_default">false</string>
+
+    <string name="pref_noaudioprocessing_key">audioprocessing_preference</string>
+    <string name="pref_noaudioprocessing_title">Disable audio processing</string>
+    <string name="pref_noaudioprocessing_dlg">Disable audio processing pipeline</string>
+    <string name="pref_noaudioprocessing_default">false</string>
+
+    <!--Call Settings-->
+
+    <string name="pref_answer_time_interval_key">answer_time_interval</string>
+    <string name="pref_answer_time_interval_title">Answer Time Interval (15&#8211;90s)</string>
+    <string name="pref_answer_time_interval_default_value">60</string>
+    <integer name="pref_answer_time_interval_min_value">15</integer>
+    <integer name="pref_answer_time_interval_max_value">90</integer>
+    <integer name="pref_answer_time_interval_step_size">5</integer>
+
+    <string name="pref_disconnect_time_interval_key">disconnect_time_interval</string>
+    <string name="pref_disconnect_time_interval_title">Disconnect Time Interval (10&#8211;90s)</string>
+    <string name="pref_disconnect_time_interval_default_value">10</string>
+    <integer name="pref_disconnect_time_interval_min_value">10</integer>
+    <integer name="pref_disconnect_time_interval_max_value">90</integer>
+    <integer name="pref_disconnect_time_interval_step_size">5</integer>
+
+    <string name="pref_dialing_time_interval_key">Dialing_time_interval</string>
+    <string name="pref_dialing_time_interval_title">Dialing Time Interval (3&#8211;10s)</string>
+    <string name="pref_dialing_time_interval_default_value">5</string>
+    <integer name="pref_dialing_time_interval_min_value">3</integer>
+    <integer name="pref_dialing_time_interval_max_value">10</integer>
+    <integer name="pref_dialing_time_interval_step_size">1</integer>
+
+    <string name="pref_videocodec_key">videocodec_preference</string>
+    <string name="pref_videocodec_title">Default video codec</string>
+    <string name="pref_videocodec_dlg">Select default video codec</string>
+    <string name="pref_videocodec_default">0</string>
+
+    <string name="pref_hwcodec_key">hwcodec_preference</string>
+    <string name="pref_hwcodec_title">Video codec hardware acceleration</string>
+    <string name="pref_hwcodec_default">true</string>
+
+    <string name="pref_audiocodec_key">pref_audio_codec</string>
+    <string name="pref_audiocodec_title">Default audio codec</string>
+    <string name="pref_audiocodec_def">ISAC</string>
+    <string name="pref_audiocodec_dlg">Select default audio codec</string>
+    <string name="accepted">Accepted</string>
+    <string name="connection_was_lost">Connection was lost</string>
+
+    <string name="opponents">and %s other</string>
+    <string name="opponent">and %s </string>
+    <string name="ringing">Ringing</string>
+    <string name="stop_share">Stop</string>
+    <string name="camera_swicth_failed">\"Failed switch camera\"</string>
+
+    <string name="user_profile_audio_call">Audio Call</string>
+    <string name="user_profile_video_call">Video Call</string>
+    <string name="paged_load_exhausted">No more items</string>
+
+    <string name="whatsontoday">WHATS ON TODAY</string>
+    <string name="topstory">TOP STORY</string>
+    <string name="meeting">Meetings</string>
+    <string name="newfeeds">New Feeds</string>
+    <string name="morenews">MORE NEWS</string>
+
+    <string name="nomeeting">No any meetings yet.</string>
+    <string name="nofeed">No any feeds yet.</string>
+    <string name="nonotification">No any notification yet.</string>
+    <string name="nonews">No any news yet.</string>
+
+    <string name="setting">Setting</string>
+    <string name="applock">App Lock</string>
+    <string name="help">Help</string>
+
+    <string name="getintouch">Get In Touch</string>
+    <string name="sendquote">SEND QUOTATION</string>
+    <string name="updatequote">UPDATE QUOTATION</string>
+    <string name="hourlyrate">HOURLY RATE</string>
+    <string name="asssignment">Assignment details</string>
+
+    <!--feed menu-->
+    <string name="message">Message</string>
+    <string name="audiocall">Audio Call</string>
+    <string name="confcall">Conference Call</string>
+    <string name="reqpayment">Request for Payment</string>
+    <string name="paymenthistory">Payment History</string>
+    <string name="fileattachment">File Attachment</string>
+    <string name="file_eng">File Engagement</string>
+    <string name="setmeeting">Set Up Meetings</string>
+    <string name="endcase">End Case</string>
+    <string name="facetoface">Face to Face</string>
+
+
+    <string name="estimatehour">Estimate Hour -</string>
+    <string name="costrange">Cost Range -</string>
+    <string name="noEducationlistMessage">No Data Found, Please Add Education</string>
+    <string name="noExperiencelistMessage">No Data Found, Please Add Experience</string>
+
+    <string name="editExperience">Add Experience</string>
+    <string name="updateExperience">Edit Experience</string>
+    <string name="editEducation">Add Education</string>
+    <string name="updateEducation">Edit Education</string>
+    <string name="editProfile">Edit Profile</string>
+    <string name="save">Save</string>
+
+    <string name="comName">Company Name</string>
+    <string name="jobposition">Job Position</string>
+    <string name="location">Location</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+
+
+
+    <string name="enter_comName">Enter Company Name</string>
+    <string name="enter_jobposition">Enter Job Position</string>
+    <string name="enter_from">Enter From Date</string>
+    <string name="enter_to">Enter To Date</string>
+    <string name="exp_from">Enter Experience From</string>
+    <string name="exp_to">Enter Experience To</string>
+
+
+    //
+    <string name="collName">Collage Name</string>
+    <string name="degree">Degree</string>
+    <string name="grade">Grade</string>
+    <string name="startyear">Start Year</string>
+    <string name="endyear">End Year</string>
+
+
+    <string name="invalidvalues">Invalid Price!</string>
+    <string name="enter_collName">Enter Collage Name</string>
+    <string name="enter_degree">Enter Degree</string>
+    <string name="enter_grade">Enter Grade</string>
+    <string name="enter_startyear">Enter Start Year</string>
+    <string name="exp_endyear">Enter End Year</string>
+    <string name="accept_agreement">Accept Agreement</string>
+    <string name="reject_agreement">Reject Agreement</string>
+
+
+    <string name="audiocall_meeting">Audio call meeting</string>
+    <string name="videocall_meeting">Video call meeting</string>
+    <string name="facetoface_meeting">Face to Face meeting</string>
+
+</resources>

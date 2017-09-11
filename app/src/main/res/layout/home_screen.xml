@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/app_bg_blue"
+    android:id="@+id/homeBG"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:background="@drawable/white_bg_corner"
+        android:id="@+id/imageview_top_logo"
+        android:layout_alignParentTop="true"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:src="@drawable/only_verify_text_icon" />
+
+    <LinearLayout
+        android:id="@+id/layout_screen"
+        android:layout_below="@+id/imageview_top_logo"
+        android:layout_height="110dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/imageview_scan"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:src="@drawable/scan_icon" />
+
+        <ImageView
+            android:id="@+id/imageview_search"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:src="@drawable/search_icon" />
+
+        <ImageView
+            android:id="@+id/imageview_about_us"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:src="@drawable/about_us_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/layout_screen"
+        android:layout_height="110dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/imageview_chat"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:src="@drawable/verity_chat" />
+
+        <ImageView
+            android:id="@+id/imageview_usdarecalls"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:src="@drawable/usda_recalls" />
+
+        <ImageView
+            android:id="@+id/imageview_social"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:src="@drawable/social" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_height="70dp"
+        android:layout_width="match_parent">
+
+        <com.google.android.gms.ads.AdView
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id"
+            android:id="@+id/adView"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

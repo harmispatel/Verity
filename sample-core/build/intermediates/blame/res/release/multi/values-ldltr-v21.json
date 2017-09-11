@@ -1,0 +1,50 @@
+[
+    {
+        "outputFile": "/home/harmis/AndroidWork/vasimmansuri3152-verity-1b78e5cca221/sample-core/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 112,
+                    "endOffset": 163
+                },
+                "from": {
+                    "file": "/home/harmis/AndroidWork/vasimmansuri3152-verity-1b78e5cca221/sample-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 240,
+                        "endColumn": 112,
+                        "endOffset": 348
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/harmis/AndroidWork/workspace/17-8-2017/verity/sample-core/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 112,
+                    "endOffset": 163
+                },
+                "from": {
+                    "file": "/home/harmis/AndroidWork/workspace/17-8-2017/verity/sample-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 240,
+                        "endColumn": 112,
+                        "endOffset": 348
+                    }
+                }
+            }
+        ]
+    }
+]

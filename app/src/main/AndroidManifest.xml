@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.certified.verityscanningOne">
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
+    <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <!-- Network State Permissions -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <permission
+        android:name="com.certified.verityscanningOne.permission.C2D_MESSAGE"
+        android:protectionLevel="signature"/>
+
+    <uses-permission android:name="com.certified.verityscanningOne.permission.C2D_MESSAGE"/>
+
+
+    <!-- Samsung -->
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+
+    <!-- Sony -->
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+
+    <!-- HTC -->
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+
+
+    <!-- video -->
+
+
+
+
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+
+    <application
+        android:name="com.certified.verityscanningOne.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo_new_scanning"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:hardwareAccelerated="false"
+        android:supportsRtl="true"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:icon,android:theme"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.certified.verityscanningOne.GifPlayActivity"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+
+        <activity
+            android:name="com.certified.verityscanningOne.SplashScreenActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity
+            android:name="com.certified.verityscanningOne.SocialLoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.certified.verityscanningOne.ProductDetailsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.certified.verityscanningOne.AboutusActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.certified.verityscanningOne.ReviewProductActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.certified.verityscanningOne.ReviewListingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.certified.verityscanningOne.SentInvitationActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.certified.verityscanningOne.NormalSettingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.certified.verityscanningOne.SearchActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.certified.verityscanningOne.HomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.certified.verityscanningOne.RegistrationActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.certified.verityscanningOne.PrivacyPolicyActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.certified.verityscanningOne.NotificationMessageDialogActivity"
+            android:theme="@android:style/Theme.Holo.Light.Dialog"/>
+        <activity
+            android:name="com.certified.verityscanningOne.TermsAndConditionActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.certified.verityscanningOne.SattingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.certified.verityscanningOne.UpdateProfileActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.certified.verityscanningOne.ReportActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.certified.verityscanningOne.EachStoreWiseActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.certified.verityscanningOne.ScannerActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar"/>
+        <activity
+            android:name="com.certified.verityscanningOne.WebviewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.certified.verityscanningOne.AddProductActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key"/>
+
+        <activity
+            android:name="com.certified.verityscanningOne.RssFeeds"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.certified.verityscanningOne.RssFeedsDetails"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.certified.verityscanningOne.OCRScanActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
+
+        <meta-data android:name="io.fabric.ApiKey"
+            android:value="0I5gBROGbR9kdx7PZ2MWkwWom"/>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+
+
+        <activity
+            android:name=".Chat.ui.activity.ChatActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ChatActivityTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+
+        <activity
+            android:name=".Chat.ui.activity.SelectUsersActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ChatActivityTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity
+            android:name=".Chat.ui.activity.DialogsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ChatActivityTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity
+            android:name=".Chat.ui.activity.AttachmentImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Dark"/>
+        <service android:name=".video.services.CallService"/>
+
+
+        <!-- video -->
+
+
+        <activity
+            android:name=".video.activities.CallActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAppTheme" />
+        <activity
+            android:name=".video.activities.SettingsActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name=".video.activities.OpponentsActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:screenOrientation="portrait" />
+
+
+        <activity android:name=".video.activities.PermissionsActivity"/>
+        <!-- Defining Services  Firebase -->
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+
+                <category android:name="com.certified.verityscanningOne"/>
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".Chat.gcm.GcmPushListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.quickblox.messages.services.gcm.QBGcmPushInstanceIDService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID"/>
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.quickblox.messages.TYPE"
+            android:value="GCM"/>
+        <meta-data
+            android:name="com.quickblox.messages.SENDER_ID"
+            android:value="@string/sender_id"/>
+        <meta-data
+            android:name="com.quickblox.messages.QB_ENVIRONMENT"
+            android:value="DEVELOPMENT"/>
+
+
+    </application>
+
+</manifest>

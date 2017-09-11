@@ -1,0 +1,230 @@
+{
+  "project_info": {
+    "project_number": "874376514949",
+    "firebase_url": "https://verity-ebd35.firebaseio.com",
+    "project_id": "verity-ebd35",
+    "storage_bucket": "verity-ebd35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874376514949:android:b2db22d2946302f2",
+        "android_client_info": {
+          "package_name": "com.certified.verityscanning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874376514949-fjp631dm6dhb3mm1tlqqjbr3uqsjcbgr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.certified.verityscanning",
+            "certificate_hash": "395da4e9c647a7aad234face8a02b705db91b601"
+          }
+        },
+        {
+          "client_id": "874376514949-6supao5oooqao7qrc9sc67a5j0j605c1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.certified.verityscanning",
+            "certificate_hash": "e78db8d78aaf276ccc287b7fe8a97ca4b7a288e2"
+          }
+        },
+        {
+          "client_id": "874376514949-39v06flsualo4ab0k53a53nq8tecp2q1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.certified.verityscanning",
+            "certificate_hash": "e719093d149b1ee9267ac6989c08b12ca918c10a"
+          }
+        },
+        {
+          "client_id": "874376514949-7880qnlrlbboihg7t3f59dpkrk6mhr6v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.certified.verityscanning",
+            "certificate_hash": "a70d77f0463aa75659b6edf6e92b3d507a497067"
+          }
+        },
+        {
+          "client_id": "874376514949-upgl5ug4e96bg2cj7vgir6a02ot3o60k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.certified.verityscanning",
+            "certificate_hash": "e4792b11a722278e1966892bcb31908f67a78869"
+          }
+        },
+        {
+          "client_id": "874376514949-09jhavf3dqgu7bcne6j0cui5sb7ou5g9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.certified.verityscanning",
+            "certificate_hash": "31914dd6f045d11a175bdfdec75d70842a7e200f"
+          }
+        },
+        {
+          "client_id": "874376514949-h6ba1n3v8pa3pcu4j4bip6t5aecnr49b.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "874376514949-ggbaeujlgb0g6rhijno7db2aadh0kf51.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.certified.verityscanning",
+            "certificate_hash": "6f40715ab9b8b1d3aeb455315377ffefeaa21b98"
+          }
+        },
+        {
+          "client_id": "874376514949-5o4ds9883eri3lph36iibe3ui4qj2kqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkmbJZOZRHw-A8gesFhfyOSEFFQbKWwog"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874376514949:android:dc662ca7d038a336",
+        "android_client_info": {
+          "package_name": "com.google.firebase.quickstart.invites"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874376514949-tufj30ke2lueu1r1cifjnnmo17mu0m5u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.firebase.quickstart.invites",
+            "certificate_hash": "e78db8d78aaf276ccc287b7fe8a97ca4b7a288e2"
+          }
+        },
+        {
+          "client_id": "874376514949-h6ba1n3v8pa3pcu4j4bip6t5aecnr49b.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "874376514949-5o4ds9883eri3lph36iibe3ui4qj2kqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkmbJZOZRHw-A8gesFhfyOSEFFQbKWwog"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874376514949-57er50ei596s5tn9pbl8kb6mt93f9rtq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.certified.verityscanning",
+                "app_store_id": "1124462403"
+              }
+            },
+            {
+              "client_id": "874376514949-h6ba1n3v8pa3pcu4j4bip6t5aecnr49b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874376514949:android:b1397e797d172f12",
+        "android_client_info": {
+          "package_name": "com.certified.verityscanningOne"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874376514949-804kqvlrhpfh6u00a3rictskljhl8em0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.certified.verityscanningOne",
+            "certificate_hash": "c693ded5b4f1462a1d9e46f7d45d5105d3b297b4"
+          }
+        },
+        {
+          "client_id": "874376514949-stq3f3028d88arnpgamgfj4e8mdpec65.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.certified.verityscanningOne",
+            "certificate_hash": "ee5fa18e14735b96fe5d1deacd1425e76d3ca33c"
+          }
+        },
+        {
+          "client_id": "874376514949-o77iohp155smuup74o5u42015gbhu49d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.certified.verityscanningOne",
+            "certificate_hash": "395da4e9c647a7aad234face8a02b705db91b601"
+          }
+        },
+        {
+          "client_id": "874376514949-h6ba1n3v8pa3pcu4j4bip6t5aecnr49b.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "874376514949-5o4ds9883eri3lph36iibe3ui4qj2kqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkmbJZOZRHw-A8gesFhfyOSEFFQbKWwog"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874376514949-57er50ei596s5tn9pbl8kb6mt93f9rtq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.certified.verityscanning",
+                "app_store_id": "1124462403"
+              }
+            },
+            {
+              "client_id": "874376514949-h6ba1n3v8pa3pcu4j4bip6t5aecnr49b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

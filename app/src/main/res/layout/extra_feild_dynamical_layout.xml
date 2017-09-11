@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/textview_placeholder_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textColor="@color/Gray_n"
+            android:textSize="@dimen/product_details_textsize" />
+
+        <ImageView
+            android:id="@+id/imageview_certificate_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp" />
+
+
+        <TextView
+            android:id="@+id/textview_placeholder_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:gravity="left|center|fill"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/product_details_textsize"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/gray_line_color"/>
+</LinearLayout>

@@ -1,0 +1,223 @@
+<resources>
+
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@color/menu_blue_bg</item>
+        <item name="colorAccent">#D94818</item>
+
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/black</item>
+        <item name="android:textColorPrimaryInverse">@color/black</item>
+    </style>
+
+    <style name="myTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">#D94818</item>
+
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/black</item>
+        <item name="android:textColorPrimaryInverse">@color/black</item>
+    </style>
+
+    <style name="myTheme.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/header_bg</item>
+        <item name="android:titleTextStyle">@style/myTheme.ActionBar.Text</item>
+    </style>
+
+    <style name="myTheme.ActionBar.Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/rating_gray</item>
+        <item name="colorControlActivated">@color/app_bg_blue</item>
+    </style>
+
+    <style name="MySwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">#064165</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/rating_gray</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/rating_gray</item>
+    </style>
+
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/color_primary</item>
+    </style>
+
+    <style name="footer_textview">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="register_edittext">
+        <item name="android:textColor">@color/color_primary</item>
+        <item name="android:textColorHint">@color/text_color_for_customer</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+
+    <style name="register_edittext_client">
+        <item name="android:textColor">@color/text_color_for_customer</item>
+        <item name="android:textColorHint">@color/login_text_color</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="register_edittext_lawyer">
+        <item name="android:textColor">@color/color_primary</item>
+        <item name="android:textColorHint">@color/text_color_for_customer</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="register_edittext_lawyer_new">
+        <item name="android:textColor">@color/color_primary</item>
+        <item name="android:textColorHint">@color/text_color_for_customer</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="Theme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="signup_custom_radio_style" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/signup_custom_radio</item>
+    </style>
+
+
+    <style name="Color1SwitchStyle">
+        <item name="colorControlActivated">@color/color_green_qb</item>
+    </style>
+
+
+    <!--chat-->
+    <style name="ChatActivityTheme" parent="AppTheme">
+        <item name="android:windowBackground">@color/background_chat_color</item>
+    </style>
+
+
+    <!--video-->
+
+
+    <style name="VideoChatTheme" parent="AppTheme">
+        <item name="colorAccent">@color/color_blue_accent</item>
+        <item name="colorControlActivated">@color/color_blue_accent</item>
+        <item name="colorControlHighlight">@color/color_blue_accent</item>
+        <item name="colorControlNormal">@color/color_blue_accent</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--<item name="android:windowActionBar">false</item>-->
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary</item>
+
+        <item name="android:windowBackground">@color/background_app_color</item>
+    </style>
+
+    <style name="AppTheme.BlueAccent">
+        <item name="colorAccent">@color/color_blue_accent</item>
+    </style>
+
+    <style name="ListItemIconStyle">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">@dimen/list_item_side_margin</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="DialogNameStyle" parent="MatchWidth">
+        <item name="android:textColor">@color/text_color_primary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="CallerAvatar">
+        <item name="android:layout_width">@dimen/call_avatar_diameter</item>
+        <item name="android:layout_height">@dimen/call_avatar_diameter</item>
+        <item name="android:padding">24dp</item>
+        <item name="android:src">@drawable/ic_person_big</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="RoundedImageButton">
+        <item name="android:layout_width">@dimen/call_buttons_diameter</item>
+        <item name="android:layout_height">@dimen/call_buttons_diameter</item>
+        <item name="android:padding">@dimen/call_buttons_padding</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="EndCallImageButton" parent="RoundedImageButton">
+        <item name="android:background">@drawable/selector_call_end</item>
+        <item name="android:src">@drawable/ic_phone_hangup</item>
+    </style>
+
+    <style name="TakeCallImageButton" parent="RoundedImageButton">
+        <item name="android:background">@drawable/selector_call_take</item>
+    </style>
+
+    <style name="ToolbarStyleCall" parent="Widget.AppCompat.Toolbar">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+    </style>
+
+
+    <style name="SeekBarPreferenceTitle" parent="WrapContent">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ToolBarWithNavigationBack">
+        <item name="navigationIcon">@drawable/ic_arrow_back_white_24dp</item>
+    </style>
+    
+</resources>

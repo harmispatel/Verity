@@ -1,0 +1,27 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    compile ("com.quickblox:quickblox-android-sdk-messages:$rootProject.qbSdkVersion" )
+
+    compile "com.android.support:design:${rootProject.designVersion}"
+    compile "com.github.johnkil.android-robototextview:robototextview:${rootProject.robotoTextViewVersion}"
+
+    compile 'com.google.android.gms:play-services-base:10.2.1'
+}

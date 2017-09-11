@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/aboutusManinBg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line_color" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+
+            android:id="@+id/imageview_top_logo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+
+            android:src="@drawable/verity_login_screen_logo" />
+
+        <EditText
+            android:id="@+id/edittext_review_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_bg"
+            android:hint="Review Title"
+            android:padding="10dp"
+            android:textColor="@color/Black"
+            android:textColorHint="@color/gray_line_color" />
+
+        <EditText
+            android:id="@+id/edittext_review_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_bg"
+            android:hint="description"
+            android:maxLines="5"
+            android:gravity="top"
+            android:minLines="3"
+            android:padding="10dp"
+            android:textColor="@color/Black"
+            android:textColorHint="@color/gray_line_color" />
+
+        <Spinner
+            android:id="@+id/spinnerReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:spinnerMode="dialog"
+            android:background="@drawable/edittext_bg"
+            android:padding="10dp" />
+
+
+        <TextView
+            android:id="@+id/review_submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_bg_selected"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Submit Review"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
