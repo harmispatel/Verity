@@ -267,9 +267,11 @@ public class BaseActivity extends FragmentActivity {
 
     private void startLoginService(QBUser qbUser) {
         try {
+
             Intent tempIntent = new Intent(this, CallService.class);
             PendingIntent pendingIntent = createPendingResult(Consts.EXTRA_LOGIN_RESULT_CODE, tempIntent, 0);
             CallService.start(this, qbUser, pendingIntent);
+
         } catch (Exception e) {
             e.printStackTrace();
         }

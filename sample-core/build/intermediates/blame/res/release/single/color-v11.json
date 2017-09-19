@@ -1,18 +1,10 @@
 [
     {
-        "merged": "/home/harmis/AndroidWork/vasimmansuri3152-verity-1b78e5cca221/sample-core/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/home/harmis/AndroidWork/vasimmansuri3152-verity-1b78e5cca221/sample-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "D:\\AndroidWork\\veritychat\\sample-core\\build\\intermediates\\res\\merged\\release\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "D:\\AndroidWork\\veritychat\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "/home/harmis/AndroidWork/workspace/17-8-2017/verity/sample-core/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/home/harmis/AndroidWork/workspace/17-8-2017/verity/sample-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
-        "merged": "/home/harmis/AndroidWork/vasimmansuri3152-verity-1b78e5cca221/sample-core/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/home/harmis/AndroidWork/vasimmansuri3152-verity-1b78e5cca221/sample-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
-    },
-    {
-        "merged": "/home/harmis/AndroidWork/workspace/17-8-2017/verity/sample-core/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/home/harmis/AndroidWork/workspace/17-8-2017/verity/sample-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+        "merged": "D:\\AndroidWork\\veritychat\\sample-core\\build\\intermediates\\res\\merged\\release\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "D:\\AndroidWork\\veritychat\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     }
 ]

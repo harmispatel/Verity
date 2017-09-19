@@ -1,10 +1,6 @@
 [
     {
-        "merged": "/home/harmis/AndroidWork/workspace/17-8-2017/verity/sample-core/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
-        "source": "/home/harmis/AndroidWork/workspace/17-8-2017/verity/sample-core/src/main/res/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/harmis/AndroidWork/vasimmansuri3152-verity-1b78e5cca221/sample-core/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
-        "source": "/home/harmis/AndroidWork/vasimmansuri3152-verity-1b78e5cca221/sample-core/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "D:\\AndroidWork\\veritychat\\sample-core\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\AndroidWork\\veritychat\\sample-core\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     }
 ]

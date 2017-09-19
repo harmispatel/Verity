@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample-core/sample-core.iml" filepath="$PROJECT_DIR$/sample-core/sample-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/sample-core/sample-core.iml" filepath="$PROJECT_DIR$/sample-core/sample-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/vasimmansuri3152-verity-1b78e5cca221.iml" filepath="$PROJECT_DIR$/vasimmansuri3152-verity-1b78e5cca221.iml" />
+      <module fileurl="file://$PROJECT_DIR$/veritychat.iml" filepath="$PROJECT_DIR$/veritychat.iml" />
     </modules>
   </component>
 </project>

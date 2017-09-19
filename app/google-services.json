@@ -135,16 +135,16 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
+              "client_id": "874376514949-h6ba1n3v8pa3pcu4j4bip6t5aecnr49b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
               "client_id": "874376514949-57er50ei596s5tn9pbl8kb6mt93f9rtq.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
                 "bundle_id": "com.certified.verityscanning",
                 "app_store_id": "1124462403"
               }
-            },
-            {
-              "client_id": "874376514949-h6ba1n3v8pa3pcu4j4bip6t5aecnr49b.apps.googleusercontent.com",
-              "client_type": 3
             }
           ]
         },
@@ -161,6 +161,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "874376514949-4kl87ktsnjqofqqmq25rg0f6l88eel4u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.certified.verityscanningOne",
+            "certificate_hash": "ca2c8f38ee574ef8fa3c8feb6d567646ddaa8390"
+          }
+        },
         {
           "client_id": "874376514949-804kqvlrhpfh6u00a3rictskljhl8em0.apps.googleusercontent.com",
           "client_type": 1,
@@ -207,16 +215,16 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
+              "client_id": "874376514949-h6ba1n3v8pa3pcu4j4bip6t5aecnr49b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
               "client_id": "874376514949-57er50ei596s5tn9pbl8kb6mt93f9rtq.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
                 "bundle_id": "com.certified.verityscanning",
                 "app_store_id": "1124462403"
               }
-            },
-            {
-              "client_id": "874376514949-h6ba1n3v8pa3pcu4j4bip6t5aecnr49b.apps.googleusercontent.com",
-              "client_type": 3
             }
           ]
         },

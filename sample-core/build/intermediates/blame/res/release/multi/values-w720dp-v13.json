@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/harmis/AndroidWork/workspace/17-8-2017/verity/sample-core/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-w720dp-v13/values-w720dp-v13.xml",
+        "outputFile": "D:\\AndroidWork\\veritychat\\sample-core\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w720dp-v13\\values-w720dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,31 +11,7 @@
                     "endOffset": 127
                 },
                 "from": {
-                    "file": "/home/harmis/AndroidWork/workspace/17-8-2017/verity/sample-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-w720dp/values-w720dp.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 231,
-                        "endColumn": 76,
-                        "endOffset": 303
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/home/harmis/AndroidWork/vasimmansuri3152-verity-1b78e5cca221/sample-core/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-w720dp-v13/values-w720dp-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 76,
-                    "endOffset": 127
-                },
-                "from": {
-                    "file": "/home/harmis/AndroidWork/vasimmansuri3152-verity-1b78e5cca221/sample-core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-w720dp/values-w720dp.xml",
+                    "file": "D:\\AndroidWork\\veritychat\\sample-core\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-w720dp\\values-w720dp.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

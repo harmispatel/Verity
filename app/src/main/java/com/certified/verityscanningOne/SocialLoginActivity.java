@@ -678,11 +678,11 @@ public class SocialLoginActivity extends BaseActivity implements
                             // If sign in fails, display a message to the user. If sign in succeeds
                             // the auth state listener will be notified and logic to handle the
                             // signed in user can be handled in the listener.
+
                             if (!task.isSuccessful()) {
                                 CommonKeyword.FROM_SETTINGS = false;
 
                                 Log.w(TAG, "signInWithCredential", task.getException());
-
                                 hideProgressDialog();
                                 showMessage(task.getException().getMessage());
                             }
@@ -905,15 +905,25 @@ public class SocialLoginActivity extends BaseActivity implements
                     final Gson gson = new Gson();
                     commonSession.storeLoggedUserID(loginbean.getUserID());
                     commonSession.setLoggedUserReferrerCode(loginbean.getReferalCode());
-
+                    String UserEmail =  loginbean.getEmail();
+                    if (CommonUtils.isTextAvailable(UserEmail)) {
+                        commonSession.storeLoggedEmail(UserEmail);
+                    }
 
                     String json = gson.toJson(loginbean);
                     commonSession.storeLoginContent(json);
 
+                    QBUser qbUser = null;
+                    StringifyArrayList<String> userTags = new StringifyArrayList<>();
+                    userTags.add("Verity");
+                    qbUser = new QBUser();
+                    qbUser.setFullName(parameterbean.getEmail());
+                    qbUser.setLogin(parameterbean.getEmail());
+                    qbUser.setPassword("123456789");
+                    qbUser.setTags(userTags);
+                    loginToChat(qbUser);
 
 
-                    Intent intent = new Intent(SocialLoginActivity.this, HomeActivity.class);
-                    startActivity(intent);
 
                     bundle_for_selected_social.putString(Param.ITEM_NAME, loginbean.getName());
                     mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SIGN_UP, bundle_for_selected_social);
@@ -1187,7 +1197,6 @@ public class SocialLoginActivity extends BaseActivity implements
     }
 
     private void loginToChat(final QBUser user) {
-
         try {
             ChatHelper.getInstance().login(user, new QBEntityCallback<Void>() {
                 @Override

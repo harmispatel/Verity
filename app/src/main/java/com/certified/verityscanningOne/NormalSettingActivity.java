@@ -342,7 +342,7 @@ public class NormalSettingActivity extends BaseActivity implements
                                     AboutusActivity.activity.finish();
                                 }
 
-
+                                mCommonSession.resetLoggedEmail();
                                 LoginManager.getInstance().logOut();
                                 Twitter.logOut();
                                 QBChatService.getInstance().destroy();
